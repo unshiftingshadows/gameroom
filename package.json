@@ -1,0 +1,44 @@
+{
+  "name": "gameroom",
+  "version": "1.0.0",
+  "description": "A place for friends to meet and play games online",
+  "productName": "The Game Room",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Jacob Beck <jacob@unshiftingshadows.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "firebase": "^5.2.0",
+    "konva": "^2.1.7",
+    "vue-firestore": "^0.2.9",
+    "vue-konva": "^1.0.6",
+    "vuefire": "^1.4.5",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "quasar-cli": "^0.16.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
